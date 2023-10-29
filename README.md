@@ -2,7 +2,7 @@
 
 Apache Dubbo는 java 기반의 고성능 오픈 소스 RPC 프레임워크입니다.
 
-AApache Dubbo는 다양한 프로토콜을 지원하며, HTTP 프로토콜 핸들러는 Spring Framework의 'org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter` 래퍼(wrapper) 형태입니다.
+Apache Dubbo는 다양한 프로토콜을 지원하며, HTTP 프로토콜 핸들러는 Spring Framework의 'org.springframework.remoting.httpinvoker.HttpInvokerServiceExporter` 래퍼(wrapper) 형태입니다.
 
 Spring Framework의 보안 경고는 안전하지 않은 Java 역직렬화(deserialization)가 `HttpInvokerServiceExporter`에 기반하며, 이는 RCE 취약점으로 이어질 수 있습니다. :
 
